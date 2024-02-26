@@ -1,0 +1,12 @@
+.radio-input:checked + .radio-btn {
+    border: 4px solid #93badd;
+}
+
+.radio-input:checked + .radio-btn .check-icon {
+    background-color: #93badd;
+}
+
+.radio-input:checked + .radio-btn .check-icon .icon::before,
+.radio-input:checked + .radio-btn .check-icon .icon::after {
+    transform: scale(1);
+}
